@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+{% block content %}
+
+  <!-- Page Header -->
+  <header class="masthead" style='background-image: url("{{ url_for('static', filename='img/CONTACT.jpg') }}")'>
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading">
+            <h1>ABOUT US</h1>
+            <span class="subheading">This is what we do.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <p>We are trying to eradicate hunger.
+          The name of our team is: SUMtimes.
+          There are 5 members in the team: Aysu (development), Zuleykha (research & ethics), Ismail (design), Eldar (research & ethics), Nurlan (business).</p>
+        <p>There are also hungry people in the country. SUMtimes doesn't want them to go hungry . So we decided to end the famine.</p>
+        <p>You can also help us eliminate hunger. Our site also helps you to share your work with others. if you take in normal calories then you will protect your health, earn bonuses and help the hungry.</p>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  {% endblock %}
